@@ -1,0 +1,8 @@
+app.beginUndoGroup("Simple AE Scene");
+
+// Do a bunch of stuff
+var comp = app.project.items.addComp("Test", 1920, 1080, 1, 10, 30);
+var text = comp.layers.addText("Hello");
+
+
+app.endUndoGroup();

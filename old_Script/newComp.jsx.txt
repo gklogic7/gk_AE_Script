@@ -1,0 +1,5 @@
+// Create a new comp
+var myComp = app.project.items.addComp("My First Scripted Comp", 1920, 1080, 1, 10, 30);
+
+// Add a solid layer
+var solid = myComp.layers.addSolid([1, 0, 0], "Red Solid", 1920, 1080, 1);
